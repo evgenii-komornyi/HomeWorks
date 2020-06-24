@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LightColorDetector
 {
-    class LightColorDetector
+    public class LightColorDetector
     {
         public String detect(int waveLength)
         {
@@ -39,4 +39,5 @@ namespace LightColorDetector
                 return "Invisible light";
             }
         }
+    }
 }
